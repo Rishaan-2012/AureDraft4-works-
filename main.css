@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 100%;
 }
@@ -140,6 +147,8 @@ body {
 }
 .v15_2 {
   width: 100%;
+  max-width: 1319px;
+  margin: 0 auto;
   height: 805px;
   background: url("../images/v15_2.png");
   background-repeat: no-repeat;
@@ -148,7 +157,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 507px;
-  left: 300px;
+  left: 0;
   border-top-left-radius: 29px;
   border-top-right-radius: 29px;
   border-bottom-left-radius: 29px;
