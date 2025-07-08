@@ -1,3 +1,9 @@
+.centered-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
 * {
   box-sizing: border-box;
 }
